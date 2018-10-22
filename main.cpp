@@ -1,14 +1,3 @@
-/*main.cpp*/
-
-//
-// <<YOUR NAME>>
-// U. of Illinois, Chicago
-// CS 341, Fall 2018
-// Project #03: Counter container
-// 
-// Test cases for Counter container, which acts like a set but keeps a count
-// of how many times each element was inserted.  
-//
 // References:
 //   Unit testing based on Catch framework: https://github.com/catchorg/Catch2
 //   Catch tutorial: https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#top

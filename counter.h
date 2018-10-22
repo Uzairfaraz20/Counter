@@ -1,20 +1,6 @@
 /*counter.h*/
 
 //
-// <<YOUR NAME>>
-// U. of Illinois, Chicago
-// CS 341, Fall 2018
-// Project #03: Counter container
-//
-// The Counter container is a set with no duplicates.  However, it keeps
-// a count of how many times an element was inserted, hence the name
-// "Counter".  Users of the Counter container can test for set membership,
-// as well as obtain an element's count.
-// 
-// Example:  suppose C is a Counter, and you insert the elements 3, 11, 
-// 5, 11, 3, and 11.  Then C contains the elements {3, 5, 11}, where 3's 
-// count is 2, 5's count is 1, and 11's count is 3.
-//
 // Given N elements, search operations are O(lgN), and insert is O(N); these
 // are average-time complexities.  In terms of space, the container will 
 // consume at most 4N space.
@@ -260,7 +246,6 @@ public:
   }
 
 
-  // DONE
   // size()
   // 
   // Returns the # of elements in the set.
@@ -286,7 +271,6 @@ public:
   }
   
   
-  //DONE
   // clear()
   //
   // Empties the set, deleting all elements and counts.
@@ -349,7 +333,7 @@ public:
   }
   
   
-  // DONE
+
   // insert(e)
   // 
   // If e is not a member of the set, e is inserted and e's count set to 0.
